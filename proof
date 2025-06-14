@@ -1,0 +1,14 @@
+import folium
+
+# Create a map centered on a location
+m = folium.Map(location=[52.1100, 5.1253], zoom_start=13)
+
+# Add a marker
+folium.Marker(
+    location=[52.1100, 5.1253],
+    popup="Demo Point",
+    tooltip="Click me!"
+).add_to(m)
+
+# Display the map
+m
