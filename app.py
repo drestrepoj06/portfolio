@@ -9,9 +9,32 @@ st.set_page_config(
     layout="wide"
 )
 
-# Title and date
-st.title("GeoHazards & GeoInformation: Jhon Restrepo's Visualization Portfolio")
-st.markdown(f"*Date: June 15, 2025*")
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        encoded = base64.b64encode(img_file.read()).decode()
+    return f"data:image/jpg;base64,{encoded}"
+
+
+# Set image as background
+header_img = get_base64_image("images/Header.jpg")
+
+st.markdown(
+    f"""
+    <div style="
+        background-image: url('{header_img}');
+        background-size: cover;
+        background-position: center;
+        padding: 60px 20px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+    ">
+        <h1>GeoHazards & GeoInformation:<br>Jhon Restrepo's Visualization Portfolio</h1>
+        <p><em>Date: June 16, 2025</em></p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 st.markdown("---")
 
 # Center-align image with vertical alignment using CSS
