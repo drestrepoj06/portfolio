@@ -97,7 +97,7 @@ st.markdown(
 )
 
 st.markdown(
-    '<p style="text-align: center;">coseismic displacement in the near-field range of the 2016 Pedernales earthquake through position differences at four GNSS stations and a wrapped interferogram from Sentinel-1 imagery.</p>',
+    '<p style="text-align: center;">Coseismic displacement in the near-field range of the 2016 Pedernales earthquake through position differences at four GNSS stations and a wrapped interferogram from Sentinel-1 imagery.</p>',
     unsafe_allow_html=True,
 )
 
