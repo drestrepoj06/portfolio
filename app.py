@@ -92,47 +92,50 @@ st.header("Visualizations")
 st.subheader("1. Master Studies")
 
 ## First project - Earthquake analysis
-st.markdown("""
-**Analysis of earthquake coseismic displacement via InSAR and GNSS stations**  
-The map shows the epicentral location and seismic context.
-""")
-st.image("images/Pedernales_location.png", use_container_width=True)
+col1, col2 = st.columns([1, 1])  # Equal width columns (half and half)
 
-st.markdown("""
-Derived interferogram with displacements calculated at the location of the selected GNSS stations.
-""")
-st.image("images/Pedernales_interferogram.png", use_container_width=True)
+with col1:
+    st.markdown("""
+    **Analysis of earthquake coseismic displacement via InSAR and GNSS stations**  
+    The map shows the epicentral location and seismic context.
+    """)
+    
+with col2:
+    st.image("images/Pedernales_location.png", use_column_width=True)
+
+col1, col2 = st.columns([1, 1])
+with col1:
+    st.markdown("""
+    Derived interferogram with displacements calculated at the location of the selected GNSS stations.
+    """)
+with col2:
+    st.image("images/Pedernales_interferogram.png", use_column_width=True)
+
 
 ## Second project - Methane hotspots
-st.markdown("""
-**Showcasing Methane hotspots in northwestern South America**  
-Using 3-year average TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela.
-""")
-st.image("images/Methane.png", use_container_width=True)
+col1, col2 = st.columns([1, 1])
+with col1:
+    st.markdown("""
+    **Showcasing Methane hotspots in northwestern South America**  
+    Using 3-year average TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela.
+    """)
+with col2:
+    st.image("images/Methane.png", use_column_width=True)
+
 
 # Section 2: Job Experience
 st.subheader("2. Job Experience")
 
-## First job project - Deformation
-# st.markdown("""
-# **Deformation in the North Pacific Seismogenic Zone, Colombia**  
-# Analysis of focal mechanisms and velocity vectors to identify deformation patterns along the subduction interface.
-# """)
-# st.image("images/sample1.png", use_container_width=True)
-
-## Second job project - Seismicity
-# st.markdown("""
-# **Seismicity for Tensor Inversion in Colombia**  
-# Compilation of moment tensor solutions and focal mechanisms for regional tectonic interpretation.
-# """)
-# st.image("images/sample2.png", use_container_width=True)
-
 ## Third job project - Deforestation
-st.markdown("""
-**Deforestation trends in two Pacific municipalities of Colombia**  
-Trends of deforestation analyzed from Hansen et al., (2013) with spatial focus on Riosucio and Rio Quito municipalities.
+col1, col2 = st.columns([1, 1])
+with col1:
+    st.markdown("""
+    **Deforestation trends in two Pacific municipalities of Colombia**  
+    Trends of deforestation analyzed from Hansen et al., (2013) with spatial focus on Riosucio and Rio Quito municipalities.
 
-This work resulted in a publication:  
-[Read the article here (In Spanish)](https://raccefyn.co/index.php/raccefyn/article/view/dinamicas_espacio_temporales_de_la_deforestacion_en_los_municipi)
-""")
-st.image("images/Deforestation.jpg", use_container_width=True)
+    This work resulted in a publication:  
+    [Read the article here (In Spanish)](https://raccefyn.co/index.php/raccefyn/article/view/dinamicas_espacio_temporales_de_la_deforestacion_en_los_municipi)
+    """)
+with col2:
+    st.image("images/Deforestation.jpg", use_column_width=True)
+
