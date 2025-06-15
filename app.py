@@ -8,18 +8,6 @@ st.set_page_config(
     layout="wide"
 )
 
-st.markdown("""
-    <style>
-    h1, h2, h3 {
-        text-align: center;
-    }
-    p, div.stMarkdown > div > p {
-        text-align: justify;
-        text-justify: inter-word;
-    }
-    </style>
-""", unsafe_allow_html=True)
-
 def get_base64_image(image_path):
     with open(image_path, "rb") as img_file:
         encoded = base64.b64encode(img_file.read()).decode()
