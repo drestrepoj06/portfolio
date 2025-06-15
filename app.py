@@ -28,7 +28,7 @@ st.markdown(
         color: white;
     ">
         <h1>GeoHazards & GeoInformation:<br>Jhon Restrepo's Visualization Portfolio</h1>
-        <p><em>Date: June 15, 2025</em></p>
+        <p><em>Date: June 16, 2025</em></p>
     </div>
     """,
     unsafe_allow_html=True
