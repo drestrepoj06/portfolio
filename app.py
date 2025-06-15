@@ -54,6 +54,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Create two columns
+# About Me Section
+st.subheader("About Me")
+
 col1, col2 = st.columns([1, 2])  # Adjust ratio as needed
 
 with col1:
@@ -75,7 +78,9 @@ with col2:
 - GNSS and seismology data analyst at Colombian Geological Survey  
 - Physics and math tutor at Universidad del Norte  
 
-The following maps and figures below have been created throughout my job experience and studies.
+The following maps and figures below have been created throughout my job experience and studies.  
+
+📎 **LinkedIn**: [jhonrestrepogeologist](https://www.linkedin.com/in/jhonrestrepogeologist/)
 """)
     
 # Map section
