@@ -47,12 +47,19 @@ with col1:
     st.image("images/Me.jpg", width=150)  # Adjust width to control image size
 
 with col2:
-    st.write("""
-    A little bit about my education:  
-    I am currently pursuing a Master in Geo-information Science and have completed a Bachelor in Geology.
+    st.markdown("""
+**My education:**  
+- Master in Geo-information Science with focus on Remote Sensing  
+- Bachelor in Geology  
 
-    The following maps and figures below have been created throughout my job experience and studies.
-    """)
+**My job experience:**  
+- AI trainer for programming Large Language Models at Outlier.ai  
+- Physics and math tutor at tutor.com  
+- GNSS and seismology data analyst at Colombian Geological Survey  
+- Physics and math tutor at Universidad del Norte  
+
+The following maps and figures below have been created throughout my job experience and studies.
+""")
 
 # Separator
 st.markdown("---")
