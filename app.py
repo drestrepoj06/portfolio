@@ -96,6 +96,11 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+st.markdown(
+    '<p style="text-align: center;">coseismic displacement in the near-field range of the 2016 Pedernales earthquake through position differences at four GNSS stations and a wrapped interferogram from Sentinel-1 imagery.</p>',
+    unsafe_allow_html=True,
+)
+
 # Descriptions above images, side by side
 col1, col2 = st.columns([1, 1])
 
@@ -123,7 +128,7 @@ st.markdown(
 
 # Additional description centered below the title
 st.markdown(
-    '<p style="text-align: center;">Using 3-year average TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela.</p>',
+    '<p style="text-align: center;">Using 3-year average (from 2019 to 2021) TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela.</p>',
     unsafe_allow_html=True,
 )
 
