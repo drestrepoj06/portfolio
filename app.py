@@ -131,7 +131,8 @@ st.subheader("2. Job Experience")
 st.markdown("""
 **Deforestation trends in two Pacific municipalities of Colombia**  
 Trends of deforestation analyzed from Hansen et al., (2013) with spatial focus on Riosucio and Rio Quito municipalities.
+
+This work resulted in a publication:  
+[Read the article here (In Spanish)](https://raccefyn.co/index.php/raccefyn/article/view/dinamicas_espacio_temporales_de_la_deforestacion_en_los_municipi)
 """)
 st.image("images/Deforestation.jpg", use_container_width=True)
-
-
