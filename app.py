@@ -157,7 +157,7 @@ st.subheader("2. Job Experience")
 
 # First job project - Seismicity and moment tensors
 st.markdown(
-    '<h3 style="text-align: center;">Seismicity and Crustal Profiles in Northwestern South America</h3>',
+    '<h3 style="text-align: center;">Seismicity in Northwestern South America for Stress Tensor Inversion</h3>',
     unsafe_allow_html=True,
 )
 
@@ -172,7 +172,30 @@ components.html(
     scrolling=True
 )
 
-## Second job project - Deforestation
+## Second job project - Deformation
+
+st.markdown(
+    '<h3 style="text-align: center;">Deformation in the North Pacific Seismogenic Zone, Colombia</h3>',
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    '<p style="text-align: justify;">Estimation of the deformation rates from focal mechanisms and GNSS velocities for the most active crustal seismic cluster of Colombia.</p>',
+    unsafe_allow_html=True,
+)
+
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    st.markdown("Study area with surficial seismicity and most important geological fault")
+    st.image("images/PN_seismicity.jpg", use_container_width=True)
+
+with col2:
+    st.markdown("Focal mechanisms used to calculate the resultant seismic moment tensor and deformation rates")
+    st.image("images/PN_focal_mechanisms.png", use_container_width=True)
+
+
+## Third job project - Deforestation
 st.markdown(
     '<h3 style="text-align: center;">Deforestation trends in two Pacific municipalities of Colombia</h3>',
     unsafe_allow_html=True,
