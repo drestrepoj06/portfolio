@@ -101,7 +101,7 @@ with col1:
     """)
     
 with col2:
-    st.image("images/Pedernales_location.png", use_column_width=True)
+    st.image("images/Pedernales_location.png", use_container_width=True)
 
 col1, col2 = st.columns([1, 1])
 with col1:
@@ -109,7 +109,7 @@ with col1:
     Derived interferogram with displacements calculated at the location of the selected GNSS stations.
     """)
 with col2:
-    st.image("images/Pedernales_interferogram.png", use_column_width=True)
+    st.image("images/Pedernales_interferogram.png", use_container_width=True)
 
 
 ## Second project - Methane hotspots
@@ -120,7 +120,7 @@ with col1:
     Using 3-year average TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela.
     """)
 with col2:
-    st.image("images/Methane.png", use_column_width=True)
+    st.image("images/Methane.png", use_container_width=True)
 
 
 # Section 2: Job Experience
@@ -137,5 +137,5 @@ with col1:
     [Read the article here (In Spanish)](https://raccefyn.co/index.php/raccefyn/article/view/dinamicas_espacio_temporales_de_la_deforestacion_en_los_municipi)
     """)
 with col2:
-    st.image("images/Deforestation.jpg", use_column_width=True)
+    st.image("images/Deforestation.jpg", use_container_width=True)
 
