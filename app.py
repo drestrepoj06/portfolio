@@ -1,5 +1,6 @@
 import streamlit as st
 import base64
+import streamlit.components.v1 as components
 
 # Page config
 st.set_page_config(
@@ -154,7 +155,24 @@ with col2:
 # Section 2: Job Experience
 st.subheader("2. Job Experience")
 
-## Third job project - Deforestation
+# First job project - Seismicity and moment tensors
+st.markdown(
+    '<h3 style="text-align: center;">Seismicity and Crustal Profiles in Northwestern South America</h3>',
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    '<p style="text-align: justify;">The map below shows seismic events from 1993 to 2022 and cross-sectional profiles used in crustal studies. Polygons represent profile widths, and dashed red lines are the centerlines of profiles labeled accordingly.</p>',
+    unsafe_allow_html=True,
+)
+
+components.html(
+    open("interactive_map_profiles.html", 'r', encoding='utf-8').read(),
+    height=600,
+    scrolling=True
+)
+
+## Second job project - Deforestation
 st.markdown(
     '<h3 style="text-align: center;">Deforestation trends in two Pacific municipalities of Colombia</h3>',
     unsafe_allow_html=True,
