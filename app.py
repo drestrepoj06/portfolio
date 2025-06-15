@@ -116,10 +116,10 @@ st.markdown(
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.markdown("Epicentral location and seismic context.")
+    st.markdown("**Epicentral location and seismic context.**")
 
 with col2:
-    st.markdown("Derived interferogram with displacements calculated at the location of the selected GNSS stations.")
+    st.markdown("**Derived interferogram with displacements calculated at the location of the selected GNSS stations.**")
 
 # Images side by side
 col1, col2 = st.columns([1, 1])
@@ -147,10 +147,10 @@ st.markdown(
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.markdown("Methane column above northwestern South America.")
+    st.markdown("**Methane column above northwestern South America.**")
 
 with col2:
-    st.markdown("Emissions from wetlands in the area.")
+    st.markdown("**Emissions from wetlands in the area.**")
 
 # Images side by side
 col1, col2 = st.columns([1, 1])
@@ -197,11 +197,11 @@ st.markdown(
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.markdown("Study area with surficial seismicity and most important geological fault.")
+    st.markdown("**Plan view of the distribution of shallow earthquakes reported by the catalog of the National Seismological Network of Colombia.**")
     st.image("images/PN_seismicity.jpg", use_container_width=True)
 
 with col2:
-    st.markdown("Focal mechanisms used to calculate the resultant seismic moment tensor and deformation rates.")
+    st.markdown("**Selected study area with the twenty-four focal mechanisms. The compressive quadrant is depicted in color, while the extensional quadrant is shown in white. SS: Strike-slip fault, TF & TS: Thrust fault and oblique reverse fault, and Mixed: Earthquakes with more than one component. Focal mechanisms influenced by the Murindó fault are enclosed by the yellow area.**")
     st.image("images/PN_focal_mechanisms.png", use_container_width=True)
 
 
@@ -229,9 +229,9 @@ st.markdown(
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.markdown("Percentage of tree cover for the Pacific region with the Riosucio and Rio Quito municipalities.")
+    st.markdown("**Percentage of tree cover for the Pacific region with the Riosucio and Rio Quito municipalities.**")
 with col2:
-    st.markdown("Simulated deforestation for 2025, along with validation percentage.")
+    st.markdown("**Simulated deforestation for 2025, along with validation percentage.**")
 
 # Images side by side
 col1, col2 = st.columns([1, 1])
