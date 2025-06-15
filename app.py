@@ -1,5 +1,4 @@
 import streamlit as st
-from datetime import datetime
 
 # Page config
 st.set_page_config(
@@ -8,9 +7,25 @@ st.set_page_config(
     layout="centered"
 )
 
-# Title and Date
-st.title("GeoHazards & GeoInformation: Jhon Restrepo's Visualization Portfolio")
-st.markdown("*Date: June 15, 2025*")
+# Custom header with background image
+st.markdown(
+    f"""
+    <div style="
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+            url('images/Header.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 60px 20px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+    ">
+        <h1>GeoHazards & GeoInformation:<br>Jhon Restrepo's Visualization Portfolio</h1>
+        <p><em>Date: June 16, 2025</em></p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # Header line
 st.markdown("---")
