@@ -97,7 +97,7 @@ st.markdown(
 )
 
 st.markdown(
-    '<p style="text-align: center;">Coseismic displacement in the near-field range of the 2016 Pedernales earthquake through position differences at four GNSS stations and a wrapped interferogram from Sentinel-1 imagery.</p>',
+    '<p style="text-align: justify;">Coseismic displacement in the near-field range of the 2016 Pedernales earthquake through position differences at four GNSS stations and a wrapped interferogram from Sentinel-1 imagery.</p>',
     unsafe_allow_html=True,
 )
 
@@ -128,7 +128,7 @@ st.markdown(
 
 # Additional description centered below the title
 st.markdown(
-    '<p style="text-align: center;">Using 3-year average (from 2019 to 2021) TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela.</p>',
+    '<p style="text-align: justify;">Using 3-year average (from 2019 to 2021) TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela.</p>',
     unsafe_allow_html=True,
 )
 
@@ -162,12 +162,7 @@ st.markdown(
 
 # Centered text below title
 st.markdown(
-    """
-    Spatial and temporal deforestation patterns in Riosucio and Río Quito municipalities in the Colombian Pacific region from 2015 to 2020 and to model a trend deforestation scenario for 2020-2025. The historical deforestation analysis (2015-2020) was done using the Global Forest Change database, while the future scenario (2020-2025) was modeled through Dinamica EGO.
-
-    This work resulted in a publication:  
-    [Read the article here (In Spanish)](https://raccefyn.co/index.php/raccefyn/article/view/dinamicas_espacio_temporales_de_la_deforestacion_en_los_municipi)
-    """,
+    '<p style="text-align: justify;"> Spatial and temporal deforestation patterns in Riosucio and Río Quito municipalities in the Colombian Pacific region from 2015 to 2020 and to model a trend deforestation scenario for 2020-2025. The historical deforestation analysis (2015-2020) was done using the Global Forest Change database, while the future scenario (2020-2025) was modeled through Dinamica EGO. This work resulted in a publication: [Read the article here (In Spanish)](https://raccefyn.co/index.php/raccefyn/article/view/dinamicas_espacio_temporales_de_la_deforestacion_en_los_municipi)</p>',
     unsafe_allow_html=True,
 )
 
