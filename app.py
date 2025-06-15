@@ -162,7 +162,15 @@ st.markdown(
 
 # Centered text below title
 st.markdown(
-    '<p style="text-align: justify;"> Spatial and temporal deforestation patterns in Riosucio and Río Quito municipalities in the Colombian Pacific region from 2015 to 2020 and to model a trend deforestation scenario for 2020-2025. The historical deforestation analysis (2015-2020) was done using the Global Forest Change database, while the future scenario (2020-2025) was modeled through Dinamica EGO. This work resulted in a publication: [Read the article here (In Spanish)](https://raccefyn.co/index.php/raccefyn/article/view/dinamicas_espacio_temporales_de_la_deforestacion_en_los_municipi)</p>',
+    '''
+    <p style="text-align: justify;">
+    Spatial and temporal deforestation patterns in Riosucio and Río Quito municipalities in the Colombian Pacific region from 2015 to 2020 and to model a trend deforestation scenario for 2020-2025. The historical deforestation analysis (2015-2020) was done using the Global Forest Change database, while the future scenario (2020-2025) was modeled through Dinamica EGO. 
+    This work resulted in a publication: 
+    <a href="https://raccefyn.co/index.php/raccefyn/article/view/dinamicas_espacio_temporales_de_la_deforestacion_en_los_municipi" target="_blank" style="color:blue; text-decoration:underline;">
+    Read the article here (In Spanish)
+    </a>
+    </p>
+    ''',
     unsafe_allow_html=True,
 )
 
