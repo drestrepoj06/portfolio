@@ -100,10 +100,10 @@ st.markdown(
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.markdown("**Left:** The map shows the epicentral location and seismic context.")
+    st.markdown("Epicentral location and seismic context.")
 
 with col2:
-    st.markdown("**Right:** Derived interferogram with displacements calculated at the location of the selected GNSS stations.")
+    st.markdown("Derived interferogram with displacements calculated at the location of the selected GNSS stations.")
 
 # Images side by side
 col1, col2 = st.columns([1, 1])
@@ -121,15 +121,29 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+# Additional description centered below the title
+st.markdown(
+    '<p style="text-align: center;">Using 3-year average TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela.</p>',
+    unsafe_allow_html=True,
+)
+
+# Descriptions above images, side by side
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.markdown(
-        "Using 3-year average TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela."
-    )
+    st.markdown("Methane column above northwestern South America")
 
 with col2:
+    st.markdown("Emissions from wetlands in the area")
+
+# Images side by side
+col1, col2 = st.columns([1, 1])
+
+with col1:
     st.image("images/Methane.png", use_container_width=True)
+
+with col2:
+    st.image("images/Methane_wetland.png", use_container_width=True)
 
 
 # Section 2: Job Experience
