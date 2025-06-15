@@ -31,6 +31,9 @@ st.markdown(
     ">
         <h1>GeoHazards & GeoInformation:<br>Jhon Restrepo's Visualization Portfolio</h1>
         <p><em>Date: June 16, 2025</em></p>
+        <p><a href="https://docs.google.com/document/d/13KR_bZSmOHFX0M101Q3Z7Zc47Ayq-MywUk-WOnNhxgk/edit?usp=sharing" target="_blank" style="color: #FFD700; text-decoration: underline;">
+            View Metadata & Reflection
+        </a></p>
     </div>
     """,
     unsafe_allow_html=True
