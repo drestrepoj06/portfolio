@@ -7,12 +7,18 @@ st.set_page_config(
     layout="centered"
 )
 
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        encoded = base64.b64encode(img_file.read()).decode()
+    return f"data:image/jpg;base64,{encoded}"
+
+header_img = get_base64_image("images/Header.jpg")
+
 # Custom header with background image
 st.markdown(
     f"""
     <div style="
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-            url('images/Header.jpg');
+        background-image: url('{header_img}');
         background-size: cover;
         background-position: center;
         padding: 60px 20px;
@@ -21,7 +27,7 @@ st.markdown(
         color: white;
     ">
         <h1>GeoHazards & GeoInformation:<br>Jhon Restrepo's Visualization Portfolio</h1>
-        <p><em>Date: June 16, 2025</em></p>
+        <p><em>Date: June 15, 2025</em></p>
     </div>
     """,
     unsafe_allow_html=True
