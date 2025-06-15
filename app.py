@@ -91,32 +91,42 @@ st.header("Visualizations")
 st.subheader("1. Master Studies")
 
 ## First project - Earthquake analysis
-st.markdown("**Analysis of earthquake coseismic displacement via InSAR and GNSS stations**")
+st.markdown(
+    '<h3 style="text-align: center;">Analysis of earthquake coseismic displacement via InSAR and GNSS positions</h3>',
+    unsafe_allow_html=True,
+)
 
-col1, col2 = st.columns([1, 1])  # two equal columns
-
-with col1:
-    st.markdown("The map shows the epicentral location and seismic context.")
-
-with col2:
-    st.image("images/Pedernales_location.png", use_container_width=True)
-
+# Descriptions above images, side by side
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.markdown("Derived interferogram with displacements calculated at the location of the selected GNSS stations.")
+    st.markdown("**Left:** The map shows the epicentral location and seismic context.")
+
+with col2:
+    st.markdown("**Right:** Derived interferogram with displacements calculated at the location of the selected GNSS stations.")
+
+# Images side by side
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    st.image("images/Pedernales_location.png", use_container_width=True)
 
 with col2:
     st.image("images/Pedernales_interferogram.png", use_container_width=True)
 
 
 ## Second project - Methane hotspots
-st.markdown("**Showcasing Methane hotspots in northwestern South America**")
+st.markdown(
+    '<h3 style="text-align: center;">Showcasing Methane hotspots in northwestern South America</h3>',
+    unsafe_allow_html=True,
+)
 
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.markdown("Using 3-year average TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela.")
+    st.markdown(
+        "Using 3-year average TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela."
+    )
 
 with col2:
     st.image("images/Methane.png", use_container_width=True)
@@ -126,19 +136,25 @@ with col2:
 st.subheader("2. Job Experience")
 
 ## Third job project - Deforestation
-st.markdown("**Deforestation trends in two Pacific municipalities of Colombia**")
+st.markdown(
+    '<h3 style="text-align: center;">Deforestation trends in two Pacific municipalities of Colombia</h3>',
+    unsafe_allow_html=True,
+)
 
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.markdown("""
+    st.markdown(
+        """
     Trends of deforestation analyzed from Hansen et al., (2013) with spatial focus on Riosucio and Rio Quito municipalities.
 
     This work resulted in a publication:  
     [Read the article here (In Spanish)](https://raccefyn.co/index.php/raccefyn/article/view/dinamicas_espacio_temporales_de_la_deforestacion_en_los_municipi)
-    """)
+    """
+    )
 
 with col2:
     st.image("images/Deforestation.jpg", use_container_width=True)
+
 
 
