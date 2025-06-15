@@ -162,7 +162,7 @@ st.markdown(
 )
 
 st.markdown(
-    '<p style="text-align: justify;">The map below shows seismic events from 1993 to 2022 and cross-sectional profiles used in crustal studies. Polygons represent profile widths, and dashed red lines are the centerlines of profiles labeled accordingly.</p>',
+    '<p style="text-align: justify;">The map below shows seismic events from 1993 to 2022 and cross-sectional profiles used in crustal studies. Polygons represent profile widths, and dashed red lines are the centerlines of profiles labeled accordingly. It is possible to zoom in to the exact locations of individual events</p>',
     unsafe_allow_html=True,
 )
 
