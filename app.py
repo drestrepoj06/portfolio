@@ -147,10 +147,10 @@ st.markdown(
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.markdown("Methane column above northwestern South America")
+    st.markdown("Methane column above northwestern South America.")
 
 with col2:
-    st.markdown("Emissions from wetlands in the area")
+    st.markdown("Emissions from wetlands in the area.")
 
 # Images side by side
 col1, col2 = st.columns([1, 1])
@@ -197,11 +197,11 @@ st.markdown(
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.markdown("Study area with surficial seismicity and most important geological fault")
+    st.markdown("Study area with surficial seismicity and most important geological fault.")
     st.image("images/PN_seismicity.jpg", use_container_width=True)
 
 with col2:
-    st.markdown("Focal mechanisms used to calculate the resultant seismic moment tensor and deformation rates")
+    st.markdown("Focal mechanisms used to calculate the resultant seismic moment tensor and deformation rates.")
     st.image("images/PN_focal_mechanisms.png", use_container_width=True)
 
 
