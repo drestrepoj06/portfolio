@@ -160,20 +160,34 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-col1, col2 = st.columns([1, 1])
-
-with col1:
-    st.markdown(
-        """
-    Trends of deforestation analyzed from Hansen et al., (2013) with spatial focus on Riosucio and Rio Quito municipalities.
+# Centered text below title
+st.markdown(
+    """
+    Spatial and temporal deforestation patterns in Riosucio and Río Quito municipalities in the Colombian Pacific region from 2015 to 2020 and to model a trend deforestation scenario for 2020-2025. The historical deforestation analysis (2015-2020) was done using the Global Forest Change database, while the future scenario (2020-2025) was modeled through Dinamica EGO.
 
     This work resulted in a publication:  
     [Read the article here (In Spanish)](https://raccefyn.co/index.php/raccefyn/article/view/dinamicas_espacio_temporales_de_la_deforestacion_en_los_municipi)
-    """
-    )
+    """,
+    unsafe_allow_html=True,
+)
+
+# Descriptions above images side by side
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    st.markdown("Percentage of tree cover for the Pacific region with the Riosucio and Rio Quito municipalities.")
+with col2:
+    st.markdown("Simulated deforestation for 2025, along with validation percentage.")
+
+# Images side by side
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    st.image("images/Deforestation_location.jpg", use_container_width=True)
 
 with col2:
     st.image("images/Deforestation.jpg", use_container_width=True)
+
 
 
 
