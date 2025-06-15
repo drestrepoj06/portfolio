@@ -78,6 +78,8 @@ with col2:
 The following maps and figures below have been created throughout my job experience and studies.
 """)
     
+# Map section
+# --- Visualizations Section ---
 # --- Visualizations Section ---
 st.markdown("---")
 st.header("Visualizations")
@@ -85,92 +87,47 @@ st.header("Visualizations")
 # Section 1: Master Studies
 st.subheader("1. Master Studies")
 
-## First project - Epicentral map
-col1, col2 = st.columns([1, 2])
-with col1:
-    st.image("images/Pedernales_location.png", use_container_width=True)
-with col2:
-    st.markdown("""
-        <div style="display: flex; align-items: center; height: 100%; min-height: 200px;">
-            <div>
-                <strong>Analysis of earthquake coseismic displacement via InSAR and GNSS stations</strong><br>
-                The map shows the epicentral location and seismic context.
-            </div>
-        </div>
-    """, unsafe_allow_html=True)
+## First project - Earthquake analysis
+st.markdown("""
+**Analysis of earthquake coseismic displacement via InSAR and GNSS stations**  
+The map shows the epicentral location and seismic context.
+""")
+st.image("images/Pedernales_location.png", use_container_width=True)
 
-## Second project - Interferogram
-col1, col2 = st.columns([1, 2])
-with col1:
-    st.image("images/Pedernales_interferogram.png", use_container_width=True)
-with col2:
-    st.markdown("""
-        <div style="display: flex; align-items: center; height: 100%; min-height: 200px;">
-            <div>
-                <strong>Analysis of earthquake coseismic displacement via InSAR and GNSS stations</strong><br>
-                Derived interferogram with displacements calculated at the location of the selected GNSS stations.
-            </div>
-        </div>
-    """, unsafe_allow_html=True)
+st.markdown("""
+Derived interferogram with displacements calculated at the location of the selected GNSS stations.
+""")
+st.image("images/Pedernales_interferogram.png", use_container_width=True)
 
-## Third project - Methane hotspots
-col1, col2 = st.columns([1.5, 1])
-with col1:
-    st.markdown("""
-        <div style="display: flex; align-items: center; height: 100%; min-height: 200px;">
-            <div>
-                <strong>Showcasing Methane hotspots in northwestern South America</strong><br>
-                Using 3-year average TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela.
-            </div>
-        </div>
-    """, unsafe_allow_html=True)
-with col2:
-    st.image("images/Methane.png", use_container_width=True)
+## Second project - Methane hotspots
+st.markdown("""
+**Showcasing Methane hotspots in northwestern South America**  
+Using 3-year average TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela.
+""")
+st.image("images/Methane.png", use_container_width=True)
 
 # Section 2: Job Experience
 st.subheader("2. Job Experience")
 
 ## First job project - Deformation
-col1, col2 = st.columns([1, 2])
-# with col1:
-    # st.image("images/sample1.png", use_container_width=True)
-with col2:
-    st.markdown("""
-        <div style="display: flex; align-items: center; height: 100%; min-height: 200px;">
-            <div>
-                <strong>Deformation in the North Pacific Seismogenic Zone, Colombia</strong><br>
-                Analysis of focal mechanisms and velocity vectors to identify deformation patterns along the subduction interface.
-            </div>
-        </div>
-    """, unsafe_allow_html=True)
+# st.markdown("""
+# **Deformation in the North Pacific Seismogenic Zone, Colombia**  
+# Analysis of focal mechanisms and velocity vectors to identify deformation patterns along the subduction interface.
+# """)
+# st.image("images/sample1.png", use_container_width=True)
 
 ## Second job project - Seismicity
-col1, col2 = st.columns([2, 1])
-with col1:
-    st.markdown("""
-        <div style="display: flex; align-items: center; height: 100%; min-height: 200px;">
-            <div>
-                <strong>Seismicity for Tensor Inversion in Colombia</strong><br>
-                Compilation of moment tensor solutions and focal mechanisms for regional tectonic interpretation.
-            </div>
-        </div>
-    """, unsafe_allow_html=True)
-# with col2:
-    # st.image("images/sample2.png", use_container_width=True)
+# st.markdown("""
+# **Seismicity for Tensor Inversion in Colombia**  
+# Compilation of moment tensor solutions and focal mechanisms for regional tectonic interpretation.
+# """)
+# st.image("images/sample2.png", use_container_width=True)
 
 ## Third job project - Deforestation
-col1, col2 = st.columns([1, 2])
-with col1:
-    st.image("images/Deforestation.jpg", use_container_width=True)
-with col2:
-    st.markdown("""
-        <div style="display: flex; align-items: center; height: 100%; min-height: 200px;">
-            <div>
-                <strong>Deforestation trends in two Pacific municipalities of Colombia</strong><br>
-                Trends of deforestation analyzed from Hansen et al., (2013) with spatial focus on Riosucio and Rio Quito municipalities.
-            </div>
-        </div>
-    """, unsafe_allow_html=True)
-
+st.markdown("""
+**Deforestation trends in two Pacific municipalities of Colombia**  
+Trends of deforestation analyzed from Hansen et al., (2013) with spatial focus on Riosucio and Rio Quito municipalities.
+""")
+st.image("images/Deforestation.jpg", use_container_width=True)
 
 
