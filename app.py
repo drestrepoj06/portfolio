@@ -77,10 +77,9 @@ with col2:
 
 The following maps and figures below have been created throughout my job experience and studies.
 """)
-
-st.markdown("---")
-
+    
 # Map section
+# --- Visualizations Section ---
 # --- Visualizations Section ---
 st.markdown("---")
 st.header("Visualizations")
@@ -88,74 +87,47 @@ st.header("Visualizations")
 # Section 1: Master Studies
 st.subheader("1. Master Studies")
 
-## First project
-col1, col2 = st.columns([1, 2])
+## First project - Earthquake analysis
+st.markdown("""
+**Analysis of earthquake coseismic displacement via InSAR and GNSS stations**  
+The map shows the epicentral location and seismic context.
+""")
+st.image("images/Pedernales_location.png", use_container_width=True)
 
-with col1:
-    selected_map = st.radio(
-        "Choose a map to view:",
-        ["Epicentral Location", "Interferogram"]
-    )
+st.markdown("""
+Derived interferogram with displacements calculated at the location of the selected GNSS stations.
+""")
+st.image("images/Pedernales_interferogram.png", use_container_width=True)
 
-    if selected_map == "Epicentral Location":
-        st.image("images/Pedernales_location.png", use_container_width=True)
-    else:
-        st.image("images/Pedernales_interferogram.png", use_container_width=True)
-
-with col2:
-    if selected_map == "Epicentral Location":
-        st.markdown("""
-        **Analysis of earthquake coseismic displacement via InSAR and GNSS stations**  
-        The map shows the epicentral location and seismic context.
-        """)
-    else:
-        st.markdown("""
-        **Analysis of earthquake coseismic displacement via InSAR and GNSS stations**  
-        Derived interferogram with displacements calculated at the location of the selected GNSS stations.
-        """)
-
-## Second project
-col1, col2 = st.columns([2, 1])
-with col1:
-    st.markdown("""
-    **Showcasing Methane hotspots in northwestern South America**  
-    Using Sentinel-5P data and Google Earth Engine, this analysis highlights persistent methane emissions 
-    over oil & gas fields and agricultural zones in Colombia and Venezuela.
-    """)
-with col2:
-    st.image("images/Methane.png", use_container_width=True)
+## Second project - Methane hotspots
+st.markdown("""
+**Showcasing Methane hotspots in northwestern South America**  
+Using 3-year average TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela.
+""")
+st.image("images/Methane.png", use_container_width=True)
 
 # Section 2: Job Experience
 st.subheader("2. Job Experience")
 
-## First job project
-# col1, col2 = st.columns([1, 2])
-# with col1:
-#    st.image("images/sample1.png", use_container_width=True)
-# with col2:
-#    st.markdown("""
-#    **Deformation in the North Pacific Seismogenic Zone, Colombia**  
-#    Analysis of focal mechanisms and velocity vectors to identify deformation patterns along the subduction interface.
-#    """)
+## First job project - Deformation
+# st.markdown("""
+# **Deformation in the North Pacific Seismogenic Zone, Colombia**  
+# Analysis of focal mechanisms and velocity vectors to identify deformation patterns along the subduction interface.
+# """)
+# st.image("images/sample1.png", use_container_width=True)
 
-## Second job project
-# col1, col2 = st.columns([2, 1])
-# with col1:
-#    st.markdown("""
-#    **Seismicity for Tensor Inversion in Colombia**  
-#    Compilation of moment tensor solutions and focal mechanisms for regional tectonic interpretation.
-#    """)
-# with col2:
-#    st.image("images/sample2.png", use_container_width=True)
+## Second job project - Seismicity
+# st.markdown("""
+# **Seismicity for Tensor Inversion in Colombia**  
+# Compilation of moment tensor solutions and focal mechanisms for regional tectonic interpretation.
+# """)
+# st.image("images/sample2.png", use_container_width=True)
 
-## Third job project
-col1, col2 = st.columns([1, 2])
-with col1:
-    st.image("images/Deforestation.jpg", use_container_width=True)
-with col2:
-    st.markdown("""
-    **Deforestation trends in two Pacific municipalities of Colombia**  
-    Trends of deforestation analyzed from Hansen et al., (2013) with spatial focus on Riosucio and Rio Quito municipalities.
-    """)
+## Third job project - Deforestation
+st.markdown("""
+**Deforestation trends in two Pacific municipalities of Colombia**  
+Trends of deforestation analyzed from Hansen et al., (2013) with spatial focus on Riosucio and Rio Quito municipalities.
+""")
+st.image("images/Deforestation.jpg", use_container_width=True)
 
 
