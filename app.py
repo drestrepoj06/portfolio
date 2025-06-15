@@ -101,7 +101,14 @@ st.markdown(
 )
 
 st.markdown(
-    '<p style="text-align: justify;">Coseismic displacement in the near-field range of the 2016 Pedernales earthquake through position differences at four GNSS stations and a wrapped interferogram from Sentinel-1 imagery.</p>',
+    '''
+    <p style="text-align: justify;">
+        Coseismic displacement in the near-field range of the 2016 Pedernales earthquake through position differences at four GNSS stations and a wrapped interferogram from Sentinel-1 imagery.
+        <a href="https://drive.google.com/drive/folders/1b27dkFNZpKUsfixQFsdGS2E3shlSOrim?usp=sharing" target="_blank" style="color: #1f77b4; text-decoration: underline;">
+            View paper & supplementary material
+        </a>
+    </p>
+    ''',
     unsafe_allow_html=True,
 )
 
