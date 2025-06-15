@@ -77,8 +77,7 @@ with col2:
 
 The following maps and figures below have been created throughout my job experience and studies.
 """)
-    
-# Map section
+
 # --- Visualizations Section ---
 # --- Visualizations Section ---
 st.markdown("---")
@@ -92,42 +91,41 @@ st.markdown("""
 **Analysis of earthquake coseismic displacement via InSAR and GNSS stations**  
 The map shows the epicentral location and seismic context.
 """)
-st.image("images/Pedernales_location.png", use_container_width=True)
+st.image("images/Pedernales_location.png", width=600)
 
 st.markdown("""
 Derived interferogram with displacements calculated at the location of the selected GNSS stations.
 """)
-st.image("images/Pedernales_interferogram.png", use_container_width=True)
+st.image("images/Pedernales_interferogram.png", width=600)
 
 ## Second project - Methane hotspots
 st.markdown("""
 **Showcasing Methane hotspots in northwestern South America**  
 Using 3-year average TROPOMI data, this analysis highlights Methane column concentrations along with wind speed in zones of Colombia and Venezuela.
 """)
-st.image("images/Methane.png", use_container_width=True)
+st.image("images/Methane.png", width=550)
 
 # Section 2: Job Experience
 st.subheader("2. Job Experience")
 
-## First job project - Deformation
+## First job project - Deformation (optional, uncomment if image is available)
 # st.markdown("""
 # **Deformation in the North Pacific Seismogenic Zone, Colombia**  
 # Analysis of focal mechanisms and velocity vectors to identify deformation patterns along the subduction interface.
 # """)
-# st.image("images/sample1.png", use_container_width=True)
+# st.image("images/sample1.png", width=600)
 
-## Second job project - Seismicity
+## Second job project - Seismicity (optional)
 # st.markdown("""
 # **Seismicity for Tensor Inversion in Colombia**  
 # Compilation of moment tensor solutions and focal mechanisms for regional tectonic interpretation.
 # """)
-# st.image("images/sample2.png", use_container_width=True)
+# st.image("images/sample2.png", width=600)
 
 ## Third job project - Deforestation
 st.markdown("""
 **Deforestation trends in two Pacific municipalities of Colombia**  
 Trends of deforestation analyzed from Hansen et al., (2013) with spatial focus on Riosucio and Rio Quito municipalities.
 """)
-st.image("images/Deforestation.jpg", use_container_width=True)
-
+st.image("images/Deforestation.jpg", width=600)
 
