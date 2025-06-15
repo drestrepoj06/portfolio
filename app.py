@@ -1,4 +1,5 @@
 import streamlit as st
+import base64
 
 # Page config
 st.set_page_config(
